@@ -136,7 +136,7 @@ def test_function_are_defined():
 
 def test_keyword():
     LAMBDALOOKSGOOD = True
-    f = open("Session6.py", "r")
+    f = open("session6.py", "r")
     content = f.read()
     f.close()
     for c in LAMBDA_CONTENT_CHECK_FOR:
